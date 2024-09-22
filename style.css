@@ -1,0 +1,75 @@
+body {
+    background-image: url(IMAGENES/my_melody_wallpaper__3_by_kyleweirdkid_dfniawx-pre.jpg);
+    padding: 25px;
+}
+
+.main {
+    margin: 25px;
+    text-align: center;
+    padding: 2%;
+    border: 15px solid;
+    border-image: linear-gradient(to bottom, rgb(238, 109, 129), rgb(238, 155, 169), blanchedalmond) 1;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 25px;
+    background: linear-gradient(135deg,#F585FF,  #F79EFF, blanchedalmond 80%);
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+}
+
+.img2 {
+    width: 250px;
+}
+
+.img3 {
+    width: 400px;
+}
+
+.img5 {
+    border-radius: 20px;
+    width: 250px;
+}
+
+button, a {
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        rgb(238, 109, 129),
+        rgb(238, 155, 169)
+    );
+    border-radius: 8px;
+    color: black;
+    display: inline-flex;
+    padding: auto;
+    cursor: pointer;
+    transition: .3s;
+    margin: 10px auto 10px ;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+button span, a span {
+    background-color: blanchedalmond;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+button:hover span, a:hover span {
+    background: none;
+}
+
+button:active, a:active {
+    transform: scale(0.9);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-style: normal;
+}
